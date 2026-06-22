@@ -1,10 +1,8 @@
 # 1. Знакомство
 print('Привет! Я бот FitLife. Давай познакомимся.')
 user_name = input('Как тебя зовут? ')
-user_age = input('Сколько тебе лет? ')
-
 try:
-    number = int(user_age)
+    user_age = int(input('Сколько тебе лет? '))
 except ValueError:
     print("Ошибка: вы ввели не число.")
 
